@@ -12,7 +12,7 @@
     become_method: sudo
 
   - name: clone course_exercises_devops
-    git: repo=https://github.com/YitzZu/Course_exercises_devops.git dest=/home/course_exercises_devops
+    git: repo=https://github.com/YitzZu/Course_exercises_devops.git dest=/home/course_exercises_devops update=no
     become: yes
     become_method: sudo 
 
